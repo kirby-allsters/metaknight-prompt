@@ -1,8 +1,6 @@
 // LINEトークン情報
-const LINE_ACCESS_TOKEN =
-  '4xSrnj+KXoc7vmK7q2pOc/+nOnpjBfUr4fqR7Yqyvi4xHppjLWkJTktCQ9rrXWU7DZNy9isvUaoICBA0zGGaKNvcjLJz646eZmtTZQAo3jC+Ute9hJUVbnLXYr95/pXbaUKETOI+ou58KjCv4pktdgdB04t89/1O/w1cDnyilFU=';
-const OPENAI_APIKEY =
-  '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';
+const LINE_ACCESS_TOKEN = '';
+const OPENAI_APIKEY = '';
 
 // Webhookがコールされた際に実行される関数
 function doPost(e) {
