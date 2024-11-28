@@ -91,9 +91,9 @@ function getUserName(userId) {
 
   if (response.getResponseCode() == 200) {
     const profile = JSON.parse(response.getContentText());
-    return profile.displayName || 'お客様'; // デフォルト値を設定
+    return profile.displayName || 'あなた'; // デフォルト値を設定
   }
-  return 'お客様'; // エラー時のデフォルト値
+  return 'あなた'; // エラー時のデフォルト値
 }
 
 // 制約条件を動的に生成する関数
